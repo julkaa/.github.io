@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.flaticon.com/premium-icon/icons/svg/3185/3185704.svg"
+    />
+    <style>
+      .main {
+        width: 250px;
+        height: 370px;
+        /* height: 435px; */
+        background-color: black;
+        margin: 0 auto;
+      }
+      #mainInput {
+        height: 50px;
+        width: 242px;
+        background-color: black;
+        text-align: right;
+        margin-bottom: 20px;
+        margin-top: 55px;
+        font-size: x-large;
+        border: 1px solid black;
+        color: white;
+      }
+      .divBtn input {
+        width: 50px;
+        height: 50px;
+        /* display: inline-flex; */
+        background-color: #323232;
+        border: 1px solid #323232;
+        color: white;
+        border-radius: 50px;
+        /* padding-left: 20px; */
+        /* margin-right: 10px; */
+        margin: 3px;
+        font-size: x-large;
+        
+      }
+
+      .divBtn input:hover{
+        background-color:#606060;
+      }
+      #actions{
+          background-color: #fe9400;
+      }
+      #actions:hover{
+        background-color: white;
+        color:#fe9400;
+      }
+      .divBtn{
+          width: 250px;
+          height: 300px;
+          padding-left: 8px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <input type="text" placeholder="0" id="mainInput"/>
+      <div class="divBtn">
+        <input type="button" value="7" />
+        <input type="button" value="8" />
+        <input type="button" value="9" />
+        <input type="button" value="/" id="actions"/>
+        <input type="button" value="4" />
+        <input type="button" value="5" />
+        <input type="button" value="6" />
+        <input type="button" value="*" id="actions"/>
+        <input type="button" value="1" />
+        <input type="button" value="2" />
+        <input type="button" value="3" />
+        <input type="button" value="-" id="actions"/>
+        <input type="button" value="0" />
+        <input type="button" value="," />
+        <input type="button" value="+" id="actions"/>
+        <input type="button" value="=" id="actions"/>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
